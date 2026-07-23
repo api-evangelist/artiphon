@@ -1,7 +1,25 @@
 aid: artiphon
 name: Artiphon
-description: Artiphon is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Artiphon is a Nashville-based music technology company that designs smart,
+  portable musical instruments for everyday creativity. Its products, including the
+  Instrument 1, Orba, Orba 2, Orba 3, and Chorda, combine strumming, tapping, sliding,
+  and looping into palm-sized MIDI controllers and synthesizers, paired with companion
+  apps that let anyone make beats, loop sounds, and explore music anywhere. Artiphon
+  sells direct and through retailers such as Guitar Center and Sweetwater. It does
+  not currently publish a public developer API; this profile is maintained in the
+  API Evangelist network as a consumer-hardware company reference.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/68793a31a4511e32f6bac3b4/t/688142ab85475553b407f61c/1753301675754/cat.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/artiphon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Music
+- Musical Instruments
+- MIDI
+- Hardware
+- Consumer Electronics
+- Audio
+- Synthesizer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/artiphon-domain-security.yml
 - type: Website
   url: https://artiphon.com
+- type: Login
+  url: https://www.artiphon.com/account/login
+- type: Downloads
+  url: https://www.artiphon.com/downloads
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
