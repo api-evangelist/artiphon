@@ -8,6 +8,17 @@ description: Artiphon is a Nashville-based music technology company that designs
   sells direct and through retailers such as Guitar Center and Sweetwater. It does
   not currently publish a public developer API; this profile is maintained in the
   API Evangelist network as a consumer-hardware company reference.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
